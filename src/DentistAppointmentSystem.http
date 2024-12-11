@@ -1,0 +1,6 @@
+@DentistAppointmentSystem_HostAddress = http://localhost:5056
+
+GET {{DentistAppointmentSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
