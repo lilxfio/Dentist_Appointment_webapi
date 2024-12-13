@@ -47,6 +47,3 @@ public class DentistsController : ControllerBase
         return CreatedAtAction(nameof(GetDentists), new { id = dentist.Id }, dentist);
     }
 }
-), new { id = dentist.Id }, dentist);
-    }
-}
